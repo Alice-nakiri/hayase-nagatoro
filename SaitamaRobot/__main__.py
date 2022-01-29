@@ -217,7 +217,7 @@ def start(update: Update, context: CallbackContext):
                             InlineKeyboardButton(
                                 text="||𝚂𝚄𝙿𝙿𝙾𝚁𝚃||",
                                 url=f"https://t.me/nagatoro_support_chat",
-                           
+                            ),
                         ],
                         [
                             InlineKeyboardButton(
