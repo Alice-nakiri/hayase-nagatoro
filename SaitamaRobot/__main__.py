@@ -222,7 +222,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="||𝙶𝚁𝙾𝚄𝙿 𝙵𝙾𝚁 𝙲𝚄𝙻𝚃𝚄𝚁𝙴𝙳 𝙼𝙰𝙽𝚂||",
-                                url="https://t.me/cultured_man_aura",
+                                url="https://t.me/culturedaura",
                             ),
                         ],
                         [
@@ -258,7 +258,7 @@ def error_callback(update: Update, context: CallbackContext):
         print("no nono1")
         print(error)
         # remove update.message.chat_id from conversation list
-    except BadRequest:
+    except BadRequest
         print("no nono2")
         print("BadRequest caught")
         print(error)
