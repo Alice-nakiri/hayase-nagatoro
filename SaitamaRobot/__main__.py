@@ -217,19 +217,7 @@ def start(update: Update, context: CallbackContext):
                             InlineKeyboardButton(
                                 text="||𝚂𝚄𝙿𝙿𝙾𝚁𝚃||",
                                 url=f"https://t.me/nagatoro_support_chat",
-                            ),
-                            InlineKeyboardButton(
-                                text="🔻𝚄𝙿𝙳𝙰𝚃𝙴𝚂🔺",
-                                url="https://t.me/nagatoro_superbot_updates",
-                            ),
-                            InlineKeyboardButton(
-                                text="|•𝚂𝚃𝙰𝙵𝙵•|",
-                                url="https://t.me/nagatoro_superbot_updates/4",
-                            ),
-                            InlineKeyboardButton(
-                                text="❕°𝙻𝙾𝙶𝚂°❕",
-                                url="https://t.me/nagatoro_logs",
-                            ),
+                           
                         ],
                         [
                             InlineKeyboardButton(
