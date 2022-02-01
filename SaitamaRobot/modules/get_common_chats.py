@@ -1,7 +1,7 @@
 import os
 from time import sleep
 
-from SaitamaRobot import OWNER_ID, dispatcher, DEV_ID
+from SaitamaRobot import OWNER_ID, dispatcher, DEV_USERS
 from SaitamaRobot.modules.helper_funcs.extraction import extract_user
 from SaitamaRobot.modules.sql.users_sql import get_user_com_chats
 from telegram import Update
