@@ -41,14 +41,14 @@ def add_chat(update: Update, context: CallbackContext):
     is_kuki = sql.is_kuki(chat.id)
     if not is_kuki:
         sql.set_kuki(chat.id)
-        msg.reply_text("Nobara AI successfully enabled for this chat!")
+        msg.reply_text("Nagatoro AI successfully enabled for this chat!")
         message = (
             f"<b>{html.escape(chat.title)}:</b>\n"
             f"AI_ENABLED\n"
             f"<b>Admin:</b> {mention_html(user.id, html.escape(user.first_name))}\n"
         )
         return message
-    msg.reply_text("Nico Robins AI is already enabled for this chat!")
+    msg.reply_text("Nagatoro AI is already enabled for this chat!")
     return ""
 
 
@@ -60,10 +60,10 @@ def rem_chat(update: Update, context: CallbackContext):
     user = update.effective_user
     is_kuki = sql.is_kuki(chat.id)
     if not is_kuki:
-        msg.reply_text("Nico AI isn't enabled here in the first place!")
+        msg.reply_text("Nagatoro AI isn't enabled here in the first place!")
         return ""
     sql.rem_kuki(chat.id)
-    msg.reply_text("Nico AI disabled successfully!")
+    msg.reply_text("Nagatoro AI disabled successfully!")
     message = (
         f"<b>{html.escape(chat.title)}:</b>\n"
         f"AI_DISABLED\n"
